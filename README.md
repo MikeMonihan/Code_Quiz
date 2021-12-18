@@ -1,3 +1,1 @@
-# Code_Quiz 
-
-Github Link
+# Code_Quiz
