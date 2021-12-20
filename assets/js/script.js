@@ -11,24 +11,24 @@ function questionOne(){
     ansThree.value ="<script>";
     ansFour.value ="<javascript>";
     
-    var answerOne = ansOne.addEventListener("click", function(){
+    ansOne.addEventListener("click", function(){
         timerDefault = timerDefault - 10;    
         questionTwo();
         return;
         
     })
     
-    var answerTwo = ansTwo.addEventListener("click", function(){
+    ansTwo.addEventListener("click", function(){
         timerDefault = timerDefault - 10;    
         questionTwo();
         return;
        
     })
-    var answerThree = ansThree.addEventListener("click", function(){
+    ansThree.addEventListener("click", function(){
         questionTwo();
         return;
     })
-    var answerFour = ansFour.addEventListener("click", function(){
+    ansFour.addEventListener("click", function(){
         timerDefault = timerDefault - 10;    
         questionTwo();
         return;
@@ -42,22 +42,22 @@ function questionTwo(){
     ansThree.value ="alarmBox(\"Hello World\")";
     ansFour.value ="showAlarm(\"Hello World\")";
     
-    var answerOne = ansOne.addEventListener("click", function(){
+    ansOne.addEventListener("click", function(){
         questionThree();
         return;
     })
     
-    var answerTwo = ansTwo.addEventListener("click", function(){
+    ansTwo.addEventListener("click", function(){
         timerDefault = timerDefault - 10;    
         questionThree();
         return;
     })
-    var answerThree = ansThree.addEventListener("click", function(){
+    ansThree.addEventListener("click", function(){
         timerDefault = timerDefault - 10;   
         questionThree(); 
         return;
     })
-    var answerFour = ansFour.addEventListener("click", function(){
+    ansFour.addEventListener("click", function(){
         timerDefault = timerDefault - 10;  
         questionThree();  
         return;
@@ -70,22 +70,22 @@ function questionThree(){
     ansThree.value ="//";
     ansFour.value ="<>";
     
-    var answerOne = ansOne.addEventListener("click", function(){
+    ansOne.addEventListener("click", function(){
         timerDefault = timerDefault - 10;  
         questionFour();
         return;
     })
     
-    var answerTwo = ansTwo.addEventListener("click", function(){
+    ansTwo.addEventListener("click", function(){
         timerDefault = timerDefault - 10;   
         questionFour(); 
         return;
     })
-    var answerThree = ansThree.addEventListener("click", function(){
+    ansThree.addEventListener("click", function(){
         questionFour();  
         return;
     })
-    var answerFour = ansFour.addEventListener("click", function(){
+    ansFour.addEventListener("click", function(){
         timerDefault = timerDefault - 10; 
         questionFour();   
         return;
@@ -98,23 +98,23 @@ function questionFour(){
     ansThree.value ="browser.user";
     ansFour.value ="navigator.userAgent";
     
-    var answerOne = ansOne.addEventListener("click", function(){
+    ansOne.addEventListener("click", function(){
         timerDefault = timerDefault - 10; 
         questionFive();
         return;
     })
     
-    var answerTwo = ansTwo.addEventListener("click", function(){
+    ansTwo.addEventListener("click", function(){
         timerDefault = timerDefault - 10;  
         questionFive();  
         return;
     })
-    var answerThree = ansThree.addEventListener("click", function(){
+    ansThree.addEventListener("click", function(){
         timerDefault = timerDefault - 10;  
         questionFive();  
         return;
     })
-    var answerFour = ansFour.addEventListener("click", function(){  
+    ansFour.addEventListener("click", function(){  
         questionFive(); 
         return;
     })
@@ -126,22 +126,22 @@ function questionFive(){
     ansThree.value ="onClick";
     ansFour.value ="onMouseHover";
     
-    var answerOne = ansOne.addEventListener("click", function(){
+    ansOne.addEventListener("click", function(){
         timerDefault = timerDefault - 10; 
         allDone();  
         return;
     })
     
-    var answerTwo = ansTwo.addEventListener("click", function(){
+    ansTwo.addEventListener("click", function(){
         timerDefault = timerDefault - 10;   
         allDone();  
         return;
     })
-    var answerThree = ansThree.addEventListener("click", function(){
+    ansThree.addEventListener("click", function(){
         allDone();  
         return;
     })
-    var answerFour = ansFour.addEventListener("click", function(){
+    ansFour.addEventListener("click", function(){
         timerDefault = timerDefault - 10;  
         allDone();  
         return;
