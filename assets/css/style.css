@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+h4 {
+    display:flex;
+    justify-content: space-between;
+}
+.centerText{
+    text-align: center;
+}
+.hideMe{
+    display: none;
+}
+.seeMe{
+    visibility: visible;
+}
+.input-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label {
+    color: #212121;
+}
+input {
+    background-color: whitesmoke;
+    border-radius: 3px;
+    border-width: 1px;
+    color: #5f6368;
+    font-size: 1.1em;
+    height: 45px;
+    line-height: 20px;
+    margin: 0;
+    margin-top: 10px;
+    max-width: 100%;
+    padding: 8px 8px 8px 8px;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.2s, 0.2s;
+    transition-property: background-color, color;
+    transition-timing-function: ease, ease;
+    vertical-align: middle;
+    width: 100%;
+}
+.card {
+    display: block;
+    background-color:#6dc3f5;;
+    border: 1px solid #000000;
+    border-radius: 9px;
+    margin: 40px auto;
+    padding: 20px;
+    width: 55vw;
+}
+  
+.card::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
