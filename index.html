@@ -15,8 +15,8 @@
             </h4>
             <div class="clearfix">
                 <div class="card">
-                  <h1 class="centerText">Coding Quiz Challenge</h1>
-                  <p class="centerText">Try to answer the following code related questions within the time limit. Keep in mind that incorrect answers
+                  <h1 class="centerText" id="quizText">Coding Quiz Challenge</h1>
+                  <p class="centerText" id="flavText">Try to answer the following code related questions within the time limit. Keep in mind that incorrect answers
                       will penalize your score/time by 10 seconds.
                   </p>
                   <form method="POST">
@@ -36,9 +36,9 @@
                         <input type="button" class="hideMe" value="ansFour" name="ansFour" id="ansFour" placeholder="Answer Four Button" />
                     </div>
                     <div class="input-group">
-                        <p class="hideMe">Your Final score is: </p>
-                        <input type="text" class="hideMe" value="userName" name="userName" id="userName" placeholder="User Initials text box" />
-                        <input type="button" class="hideMe" value="submitBtn" name="submitBtn" id="submitBtn" placeholder="User Initials submit Button" />
+                        <p class="hideMe" id="initialsText">Enter Initials:</p>
+                        <input type="text" class="hideMe" value="" name="userName" id="userName" placeholder="User Initials text box" />
+                        <input type="button" class="hideMe" value="Submit" name="submitBtn" id="submitBtn" placeholder="User Initials submit Button" />
                     </div>
                   </form>
                 </div>
